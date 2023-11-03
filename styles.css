@@ -7,7 +7,7 @@ body {
 }
 
 .yoda-head {
-    z-index: 3;
+    z-index: 4;
     position: absolute;
     right: 0;
     left: 0;
@@ -154,7 +154,7 @@ body {
 }
 
 .yoda-scarf {
-    z-index: 2;
+    z-index: 3;
     position: absolute;
     height: 100px;
     width: 300px;
@@ -162,12 +162,12 @@ body {
     left: 1135px;
     background-color: #fdd0a6;
     border-radius: 100%;
-    border: 3px solid #000;
+    border: 3px solid #cc9569;
     border-bottom: 10px solid #cc9569;
 }
 
 .yoda-body {
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     top: 675px;
     left: 1111px;
@@ -178,3 +178,45 @@ body {
     border-top-left-radius: 65%;
     border: 8px solid #cc9569;
 }
+
+.yoda-body-strap {
+    z-index: 3;
+    position: absolute;
+    top: 155px;
+    left: 5px;
+    background-color: #cc9569;
+    height: 40px;
+    width: 395px;
+    transform: rotate(45deg);
+    border-top-right-radius: 75%;
+    border-bottom-right-radius: 25%;
+    border: 2px solid #be8b61;
+}
+
+.yoda-arm-left {
+    z-index: 1;
+    position: absolute;
+    height: 75px;
+    width: 250px;
+    background-color: #d8aa85;
+    left: -190px;
+    top: 113px;
+    border: 8px solid #be8b61;
+    border-right: 0px solid transparent;
+    transform: rotate(35deg);
+}
+
+.yoda-arm-right {
+    z-index: 1;
+    position: absolute;
+    height: 75px;
+    width: 250px;
+    background-color: #d8aa85;
+    left: 230px;
+    top: 200px;
+    transform: rotate(50deg);
+    border: 8px solid #be8b61;
+    border-left: 0px solid transparent;
+}
+
+/* hand left and right are next with each finger individually #'d  */
