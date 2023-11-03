@@ -158,21 +158,23 @@ body {
     position: absolute;
     height: 100px;
     width: 300px;
-    top: 705px;
-    left: 488px;
+    top: 715px;
+    left: 1135px;
     background-color: #fdd0a6;
     border-radius: 100%;
-    border: 2px solid #000;
+    border: 3px solid #000;
+    border-bottom: 10px solid #cc9569;
 }
 
 .yoda-body {
     z-index: 1;
     position: absolute;
     top: 675px;
-    left: 465px;
+    left: 1111px;
     height: 440px;
     width: 350px;
     background-color: #d8aa85;
     border-top-right-radius: 65%;
     border-top-left-radius: 65%;
+    border: 8px solid #cc9569;
 }
