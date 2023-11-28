@@ -13,14 +13,17 @@ body {
 .yoda-main {
     display: grid;
     place-items: center;
-}
-
-.yoda-head {
     position: absolute;
     right: 0;
     left: 0;
     top: 0;
     bottom: 0;
+}
+
+.yoda-head {
+    position: absolute;
+    top: 550px;
+    left: 1134px;
     margin: auto;
     background: linear-gradient(to top, #009900 85%,#00CC33 100%);
     width: 305px;
