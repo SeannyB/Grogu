@@ -5,8 +5,9 @@
 body {
     background-color: #c9d2fc;
     margin: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    overflow: hidden;
 }
 
 
@@ -234,6 +235,10 @@ body {
     border-right: 0px solid transparent;
     transform: rotate(35deg);
     z-index: 2;
+    animation-name: wave;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 .yoda-arm-right {
@@ -261,7 +266,7 @@ body {
     border-top-left-radius: 70%;
     border: 2px solid #005700;
     transform: rotate(90deg);
-    z-index: 1;
+    z-index: -1;
 }
 
 .yoda-hand-right {
@@ -276,7 +281,7 @@ body {
     border-top-left-radius: 70%;
     border: 2px solid #005700;
     transform: rotate(-90deg);
-    z-index: 1;
+    z-index: -1;
 }
 
 .yoda-finger1 {
@@ -444,4 +449,19 @@ body {
     width: 200px;
     border-radius: 50%;
     opacity: 33%;
+}
+
+@keyframes wave {
+    10% {
+        transform: rotate(30deg);
+    }
+    20% {
+        transform: rotate(50deg);
+    }
+    30% {
+        transform: rotate(30deg);
+    }
+    40% {
+        transform: rotate(50deg);
+    }
 }
