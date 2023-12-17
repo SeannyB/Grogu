@@ -4,8 +4,8 @@
 
 body {
     background-color: #c9d2fc;
-    margin: 0;
-    width: 100%;
+    margin: auto auto;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
@@ -14,11 +14,9 @@ body {
 .yoda-main {
     display: grid;
     place-items: center;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
 }
 
 .yoda-head {
@@ -26,7 +24,7 @@ body {
     top: 550px;
     left: 1134px;
     margin: auto;
-    background: linear-gradient(to top, #009900 85%,#00CC33 100%);
+    background: linear-gradient(to top, #009900 88%,#00CC33 100%);
     width: 305px;
     height: 225px;
     border: 1px solid #000;
